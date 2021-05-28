@@ -1,11 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Card from './Cards';
-import './index.css';
-import Sdata from './Sdata';
+import React from "react";
+import ReactDOM from "react-dom";
+import Card from "./Cards";
+import "./index.css";
+import Sdata from "./Sdata";
 
- let ncard = (val) => {
-
+let ncard = (val) => {
   console.log(val);
   return (
     <Card
@@ -15,16 +14,13 @@ import Sdata from './Sdata';
       sname={val.name}
       link={val.link}
     />
-  )
-}
-
+  );
+};
 
 ReactDOM.render(
   <>
-
     <h1 className="heading-style">List of top 5 Netflix in 2021</h1>
-
     {Sdata.map(ncard)};
   </>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
