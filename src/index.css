@@ -60,6 +60,7 @@ code {
   height: 235px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  border-radius: 12px;
 }
 
 .card_info {
@@ -111,6 +112,7 @@ button {
 .zoom {
   transition: transform 0.2s;
   margin: 0 auto;
+  border-radius: 12px;
 }
 
 .zoom:hover {
