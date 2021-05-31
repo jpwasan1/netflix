@@ -111,6 +111,7 @@ button {
 .zoom {
   transition: transform 0.2s;
   margin: 0 auto;
+  border-radius: 12px;
 }
 
 .zoom:hover {

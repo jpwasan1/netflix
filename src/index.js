@@ -20,6 +20,7 @@ let ncard = (val) => {
 ReactDOM.render(
   <>
     <h1 className="heading-style">JAISI PG 2-A-1 JAWAHAR NAGAR, SRI GANGANAGAR, RAJASTHAN</h1>
+    <h2 className="heading-style"> Contact Number is 9352018935</h2>
     {Sdata.map(ncard)};
   </>,
   document.getElementById("root")
